@@ -1,2 +1,1 @@
-Place input audio files here.
-Supported formats: WAV, MP3, FLAC.
+Input audio files here. Supported formats: ".wav", ".mp3", ".flac", ".ogg", ".m4a", ".aac"
