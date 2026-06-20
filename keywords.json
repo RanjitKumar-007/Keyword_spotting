@@ -1,0 +1,214 @@
+{
+  "confidence_threshold": 0.7,
+  "severity_thresholds": {
+    "low": 5,
+    "medium": 15,
+    "high": 25
+  },
+  "keywords": {
+    "bomb": {
+      "weight": 10,
+      "synonyms": ["explosive device", "IED", "charge", "incendiary", "ordnance"]
+    },
+    "attack": {
+      "weight": 8,
+      "synonyms": ["assault", "raid", "strike", "offensive", "onslaught"]
+    },
+    "hostage": {
+      "weight": 9,
+      "synonyms": ["captive", "prisoner", "detainee", "bargaining chip", "abductee"]
+    },
+    "terrorist": {
+      "weight": 10,
+      "synonyms": ["extremist", "militant", "attacker", "insurgent", "radicalized individual"]
+    },
+    "weapon": {
+      "weight": 7,
+      "synonyms": ["armament", "firearm", "ordnance", "munition", "implement of war"]
+    },
+    "explosive": {
+      "weight": 10,
+      "synonyms": ["detonating agent", "incendiary", "blasting compound", "charge", "pyrotechnic"]
+    },
+    "detonation": {
+      "weight": 10,
+      "synonyms": ["explosion", "blast", "discharge", "ignition", "combustion"]
+    },
+    "gunfire": {
+      "weight": 8,
+      "synonyms": ["shooting", "volley", "fusillade", "fire", "barrage"]
+    },
+    "shooting": {
+      "weight": 8,
+      "synonyms": ["gunfire", "discharge", "volley", "fusillade", "salvo"]
+    },
+    "sniper": {
+      "weight": 8,
+      "synonyms": ["sharpshooter", "marksman", "long-range shooter", "rifleman", "precision shooter"]
+    },
+    "rifle": {
+      "weight": 7,
+      "synonyms": ["firearm", "long gun", "carbine", "assault rifle", "semiautomatic"]
+    },
+    "pistol": {
+      "weight": 6,
+      "synonyms": ["handgun", "sidearm", "revolver", "firearm", "semi-automatic pistol"]
+    },
+    "grenade": {
+      "weight": 9,
+      "synonyms": ["fragmentation device", "hand grenade", "incendiary grenade", "flashbang", "stun grenade"]
+    },
+    "rocket": {
+      "weight": 8,
+      "synonyms": ["projectile", "missile", "RPG", "rocket-propelled grenade", "munition"]
+    },
+    "missile": {
+      "weight": 9,
+      "synonyms": ["projectile", "guided weapon", "ballistic missile", "warhead", "rocket"]
+    },
+    "ambush": {
+      "weight": 8,
+      "synonyms": ["surprise attack", "trap", "bushwhack", "sudden assault", "lying in wait"]
+    },
+    "assassination": {
+      "weight": 10,
+      "synonyms": ["targeted killing", "political murder", "liquidation", "elimination", "extrajudicial killing"]
+    },
+    "kidnapping": {
+      "weight": 9,
+      "synonyms": ["abduction", "hostage-taking", "forcible confinement", "unlawful seizure", "captivity"]
+    },
+    "abduction": {
+      "weight": 9,
+      "synonyms": ["kidnapping", "forcible seizure", "unlawful detention", "hostage-taking", "apprehension"]
+    },
+    "threat": {
+      "weight": 6,
+      "synonyms": ["warning", "menace", "ultimatum", "intimidation", "coercion"]
+    },
+    "violence": {
+      "weight": 7,
+      "synonyms": ["brutality", "aggression", "force", "coercion", "harm"]
+    },
+    "extremist": {
+      "weight": 8,
+      "synonyms": ["radical", "fanatic", "hardliner", "zealot", "fundamentalist"]
+    },
+    "radicalization": {
+      "weight": 8,
+      "synonyms": ["indoctrination", "extremist conversion", "ideological conditioning", "militarization", "brainwashing"]
+    },
+    "recruitment": {
+      "weight": 7,
+      "synonyms": ["enlistment", "mobilization", "conscription", "indoctrination", "grooming"]
+    },
+    "militant": {
+      "weight": 8,
+      "synonyms": ["combatant", "extremist fighter", "insurgent", "radical", "armed activist"]
+    },
+    "insurgent": {
+      "weight": 8,
+      "synonyms": ["rebel", "guerrilla", "revolutionary", "militant", "freedom fighter"]
+    },
+    "hostility": {
+      "weight": 6,
+      "synonyms": ["aggression", "belligerence", "antagonism", "enmity", "animosity"]
+    },
+    "sabotage": {
+      "weight": 9,
+      "synonyms": ["subversion", "disruption", "undermining", "destruction", "wrecking"]
+    },
+    "target": {
+      "weight": 5,
+      "synonyms": ["objective", "aim", "mark", "intended victim", "focal point"]
+    },
+    "operation": {
+      "weight": 4,
+      "synonyms": ["mission", "campaign", "maneuver", "action", "undertaking"]
+    },
+    "cell": {
+      "weight": 7,
+      "synonyms": ["unit", "faction", "sleeper cell", "clandestine unit", "underground group"]
+    },
+    "network": {
+      "weight": 5,
+      "synonyms": ["organization", "syndicate", "web", "infrastructure", "apparatus"]
+    },
+    "smuggling": {
+      "weight": 6,
+      "synonyms": ["trafficking", "contraband transport", "illicit trade", "black market dealing", "illegal importation"]
+    },
+    "trafficking": {
+      "weight": 6,
+      "synonyms": ["smuggling", "illicit trade", "human trafficking", "contraband dealing", "black market"]
+    },
+    "surveillance": {
+      "weight": 5,
+      "synonyms": ["monitoring", "reconnaissance", "observation", "intelligence gathering", "watchfulness"]
+    },
+    "reconnaissance": {
+      "weight": 7,
+      "synonyms": ["surveillance", "scouting", "intelligence gathering", "recon", "observation"]
+    },
+    "infiltration": {
+      "weight": 8,
+      "synonyms": ["penetration", "covert entry", "mole operation", "undermining", "subversion"]
+    },
+    "breach": {
+      "weight": 6,
+      "synonyms": ["violation", "intrusion", "break-in", "penetration", "security failure"]
+    },
+    "evacuation": {
+      "weight": 5,
+      "synonyms": ["withdrawal", "exodus", "clearance", "relocation", "dispersal"]
+    },
+    "emergency": {
+      "weight": 5,
+      "synonyms": ["crisis", "urgent situation", "disaster", "calamity", "critical incident"]
+    },
+    "hazard": {
+      "weight": 5,
+      "synonyms": ["danger", "risk", "threat", "peril", "menace"]
+    },
+    "security": {
+      "weight": 4,
+      "synonyms": ["protection", "safety", "defense", "safeguard", "countermeasure"]
+    },
+    "checkpoint": {
+      "weight": 5,
+      "synonyms": ["control point", "screening point", "inspection post", "barrier", "security gate"]
+    },
+    "perimeter": {
+      "weight": 5,
+      "synonyms": ["boundary", "security cordon", "outer ring", "containment zone", "defensive line"]
+    },
+    "detain": {
+      "weight": 6,
+      "synonyms": ["capture", "arrest", "hold", "apprehend", "confine"]
+    },
+    "capture": {
+      "weight": 6,
+      "synonyms": ["apprehend", "detain", "seize", "arrest", "take prisoner"]
+    },
+    "casualty": {
+      "weight": 8,
+      "synonyms": ["fatality", "victim", "injured party", "loss", "collateral damage"]
+    },
+    "fatality": {
+      "weight": 8,
+      "synonyms": ["death", "casualty", "loss of life", "kill", "deceased"]
+    },
+    "evade": {
+      "weight": 5,
+      "synonyms": ["escape", "flee", "avoid", "elude", "dodge"]
+    },
+    "incident": {
+      "weight": 4,
+      "synonyms": ["event", "occurrence", "episode", "happening", "security breach"]
+    },
+    "crisis": {
+      "weight": 6,
+      "synonyms": ["emergency", "critical situation", "standoff", "impasse", "calamity"]
+    }
+  }
+}
